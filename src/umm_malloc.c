@@ -83,7 +83,7 @@ UMM_H_ATTPACKPRE typedef struct umm_block_t {
 struct umm_heap_config {
     umm_block *pheap;
     size_t heap_size;
-    uint16_t numblocks;
+    uint32_t numblocks;
 };
 
 struct umm_heap_config umm_heap_current;
